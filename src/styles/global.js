@@ -14,4 +14,19 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 1rem;
   }
 
+
+  @media (max-width: 768px) {
+    h2 {
+      font-weight: bold;
+      font-size: 31px;
+      color: ${(props) => props.theme['blue-300']};
+    }
+
+    p {
+      font-weight: normal;
+      font-size: 1rem;
+      color: ${(props) => props.theme['gray-600']};
+    }
+  }
+
 `;
