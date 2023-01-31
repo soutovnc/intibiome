@@ -36,6 +36,10 @@ export const ContentContainer = styled.div`
 
   h2 {
     margin-top: 140px;
+    font-weight: bold;
+    font-size: 39px;
+    color: ${(props) => props.theme['blue-300']};
+    line-height: 40px;
   }
 
   li {
@@ -59,6 +63,10 @@ export const ContentContainer = styled.div`
     p {
       text-align: center;
       margin-bottom: 30px;
+      font-weight: normal;
+      font-size: 20px;
+      color: ${(props) => props.theme['gray-600']};
+      line-height: 22px;
     }
 
   }
