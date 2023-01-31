@@ -3,6 +3,7 @@ import heroBannerMobile from '../assets/images/banner-hero-mobile.png'
 import { Header } from "../components/Header"
 import { Container } from './styles';
 import { Value } from '../components/Value';
+import { Navigation } from '../components/Navigation';
 
 
 export function Home() {
@@ -11,6 +12,7 @@ export function Home() {
   return (
     <>
       <Header />
+      <Navigation />
       <Container>
         <main className="content">
           <img

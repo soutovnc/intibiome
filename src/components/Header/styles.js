@@ -38,4 +38,13 @@ export const HeaderContainer = styled.header`
   .searchIcon:hover {
     cursor: pointer;
   }
+
+  @media (min-width: 768px) {
+    .navbarMenu {
+      /* display: none; */
+      color: ${(props) => props.theme['white']}
+    }
+
+    
+  }
 `;
