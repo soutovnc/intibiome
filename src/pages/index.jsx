@@ -10,6 +10,7 @@ import { Value } from '../components/Value';
 import { Navigation } from '../components/Navigation';
 import { Products } from '../components/Products';
 import { Modal } from '../components/Modal'
+import { Footer } from '../components/Footer'
 
 
 export function Home() {
@@ -40,7 +41,7 @@ export function Home() {
         </section>
       </BannerMiddlePage>
       <Modal />
-
+      <Footer />
     </>
   )
 }
