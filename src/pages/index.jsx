@@ -1,9 +1,15 @@
 import heroBanner from '../assets/images/banner-hero.png'
 import heroBannerMobile from '../assets/images/banner-hero-mobile.png'
+import bannerIntibiome from '../assets/images/banner-intibiome.png'
+import bannerIntibiomeMobile from '../assets/images/banner-intibiome-mobile.png'
+
+
 import { Header } from "../components/Header"
-import { Container } from './styles';
+import { Container, BannerMiddlePage } from './styles';
 import { Value } from '../components/Value';
 import { Navigation } from '../components/Navigation';
+import { Products } from '../components/Products';
+import { Modal } from '../components/Modal'
 
 
 export function Home() {
@@ -23,6 +29,17 @@ export function Home() {
         </main>
       </Container>
       <Value />
+      <Products />
+      <BannerMiddlePage>
+        <section>
+          <img
+            src={windowSize >= 768 ? bannerIntibiome : bannerIntibiomeMobile}
+            alt="Banner intibiome middle page"
+            className="bannerIntibiome"
+          />
+        </section>
+      </BannerMiddlePage>
+      <Modal />
 
     </>
   )

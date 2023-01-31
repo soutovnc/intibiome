@@ -28,7 +28,6 @@ export const GlobalStyle = createGlobalStyle`
     p {
       font-weight: normal;
       font-size: 1rem;
-      /* line-height: 18px; */
       color: ${(props) => props.theme['gray-600']};
       opacity: 1;
       letter-spacing: 0.32px;
