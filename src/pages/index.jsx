@@ -11,6 +11,7 @@ import { Navigation } from '../components/Navigation';
 import { Products } from '../components/Products';
 import { Modal } from '../components/Modal'
 import { Footer } from '../components/Footer'
+import { Navbar } from '../components/Nav/NavBar'
 
 
 export function Home() {
@@ -19,7 +20,7 @@ export function Home() {
   return (
     <>
       <Header />
-      <Navigation />
+      <Navbar />
       <Container>
         <main className="content">
           <img

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
-  height: 80px;
+  height: 70px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -45,6 +45,6 @@ export const HeaderContainer = styled.header`
       color: ${(props) => props.theme['white']}
     }
 
-    
+
   }
 `;

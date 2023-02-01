@@ -6,7 +6,7 @@ export function Header() {
   return (
     <HeaderContainer>
       <div className="navbarMenu">
-        <FiMenu />
+        {/* <FiMenu /> */}
       </div>
       <span className="headerLogo">
         <img src={logo} alt="Logo intibiome" />
